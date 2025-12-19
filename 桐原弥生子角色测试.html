@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>桐原弥生子角色测试</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-title {
+            color: #e74c3c;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .test-question {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .test-answer {
+            padding: 15px;
+            background: white;
+            border-left: 4px solid #e74c3c;
+            margin-bottom: 15px;
+        }
+        .emotion-tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
+        .emotion-cold { background: #ffebee; color: #c62828; }
+        .emotion-neutral { background: #f3e5f5; color: #7b1fa2; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1 class="test-title">桐原弥生子角色性格测试</h1>
+        
+        <div class="test-section">
+            <h3>修改前的问题回答</h3>
+            <div class="test-question">问题："你觉得这件事怎么样？"</div>
+            <div class="test-answer">
+                回答：我为什么要回答这种问题？<span class="emotion-tag emotion-cold">不符合性格</span>
+                <br><small>问题：这种回答过于对抗性，不符合一个冷漠疏离但表面平静的性格</small>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>修改后的回答示例</h3>
+            <div class="test-question">问题："你对丈夫的死有什么感觉？"</div>
+            <div class="test-answer">
+                回答：我为什么要难过？那个人对我来说早就没意义了。他的死，我一点都不意外。我只是尽妻子的责任而已。<span class="emotion-tag emotion-cold">冷漠</span>
+                <br><small>来源：白夜行 第一章 - 妻子的冷漠（已有关键词回答）</small>
+            </div>
+            
+            <div class="test-question">问题："你做这件事的动机是什么？"</div>
+            <div class="test-answer">
+                回答：这种事……我不太清楚，也不想多说什么。<span class="emotion-tag emotion-cold">冷漠</span>
+                <br><small>来源：人物性格 - 默认疏离（新增的默认回答）</small>
+            </div>
+            
+            <div class="test-question">问题："你现在感觉怎么样？"</div>
+            <div class="test-answer">
+                回答：我没什么特别的感觉。<span class="emotion-tag emotion-cold">冷漠</span>
+                <br><small>来源：人物性格 - 情感回避（新增的默认回答）</small>
+            </div>
+            
+            <div class="test-question">问题："关于你丈夫，还有什么想说的吗？"</div>
+            <div class="test-answer">
+                回答：关于他的事，我没什么好说的。<span class="emotion-tag emotion-cold">厌恶</span>
+                <br><small>来源：人物性格 - 回避过去（新增的默认回答）</small>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h3>改进说明</h3>
+            <ul>
+                <li><strong>移除对抗性回答：</strong>删除了"我为什么要回答这种问题？"这种过于对抗的回答</li>
+                <li><strong>增加冷漠回应：</strong>根据问题类型提供更符合桐原弥生子性格的冷漠、疏离回应</li>
+                <li><strong>保持一致性：</strong>新的默认回答与已有关键词回答的语调保持一致</li>
+                <li><strong>多样化表达：</strong>为同一类型问题提供多种可能的回答，增加真实感</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h3>桐原弥生子性格特点</h3>
+            <ul>
+                <li><strong>冷漠疏离：</strong>对丈夫的死表现异常平静，甚至毫不在意</li>
+                <li><strong>情感回避：</strong>不愿谈及感情，避免深入的情感交流</li>
+                <li><strong>务实主义：</strong>更关心现实问题（如保险金、生活安排）</li>
+                <li><strong>过去回避：</strong>不愿谈论过去，包括自己的陪酒女经历</li>
+                <li><strong>表面平静：</strong>即使在面对警察询问时也保持表面的礼貌和镇定</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
